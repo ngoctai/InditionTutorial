@@ -1,0 +1,205 @@
+.floatLeft{
+	display: block;
+	float: left;
+}
+.floatRight{
+	display: block;
+	float: right;
+}
+
+/*Clear fix*/
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+*:focus {outline:none;}
+li.author{
+     font-size: 0.8em;
+}
+.noMaPa{
+     margin: 0;
+     padding: 0;
+}
+.active{
+     display: block;
+}
+.none{
+     display: none;
+}
+
+.blue{
+     background-color: #0082bb;
+}
+.red{
+     background-color: #e6542a;
+}
+.gray{
+     background-color:#58585a;
+}
+.dblue{
+     background-color:#0e3655;
+}
+.brown{
+     background-color:#471d0e;
+}
+.blueColor{
+     color: #0082bb;
+}
+.redColor{
+     color: #e6542a;
+}
+.grayColor{
+     color:#58585a;
+}
+.dblueColor{
+     color:#0e3655;
+}
+.brownColor{
+     color:#471d0e;
+}
+
+ul.label{
+
+}
+ul.label li{
+    font-size: 1em;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin-left: 10px;
+    font-weight: normal;
+}
+ul.label li a{
+     color: #fff;
+}
+
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+.jspContainer
+{
+    overflow: hidden;
+    position: relative;
+}
+
+.jspPane
+{
+    position: absolute;
+}
+
+.jspVerticalBar
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    /* background: red; */
+}
+
+.jspHorizontalBar
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 16px;
+    background: red;
+}
+
+.jspCap
+{
+    display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+    float: left;
+}
+
+.jspTrack
+{
+    background: none;
+    position: relative;
+}
+
+.jspDrag
+{
+    background: #0076a3;
+    position: relative;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+    float: left;
+    height: 100%;
+}
+
+.jspArrow
+{
+    background: #50506d;
+    text-indent: -20000px;
+    display: block;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.jspArrow.jspDisabled
+{
+    cursor: default;
+    background: #80808d;
+}
+
+.jspVerticalBar .jspArrow
+{
+    height: 16px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+    width: 16px;
+    float: left;
+    height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+    outline: none;
+}
+
+.jspCorner
+{
+    background: #eeeef4;
+    float: left;
+    height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+    margin: 0 -3px 0 0;
+}
+
+#backTop{position: absolute;right: 0;bottom: 0;position: fixed;display: none;}
